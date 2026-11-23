@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="title">Milica Galić — Full-Stack Developer</title>
+  <meta name="description" data-i18n-content="meta" content="Curriculum vitae of Milica Galić, a full-stack developer in Banja Luka specializing in Laravel, Vue.js, and API integrations.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg class="icon-sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 2 10 5-10 5L2 7z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></symbol>
+    <symbol id="i-language" viewBox="0 0 24 24"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7z"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/><path d="m14.5 4-5 16"/></symbol>
+    <symbol id="i-api" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></symbol>
+    <symbol id="i-rocket" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.3-2 5-2 5s3.7-.5 5-2c.7-.8.7-2.1-.1-2.9a2.2 2.2 0 0 0-2.9-.1z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.9A12.9 12.9 0 0 1 22 2c0 2.7-.8 7.5-6 11a22.4 22.4 0 0 1-4 2z"/><path d="M9 12H4s.6-3 2-4c1.6-1.1 5 0 5 0"/><path d="M12 15v5s3-.6 4-2c1.1-1.6 0-5 0-5"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+    <symbol id="i-graduation" viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></symbol>
+    <symbol id="i-folder" viewBox="0 0 24 24"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.7-.9l-.8-1.2A2 2 0 0 0 7.9 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+  </svg>
+
+  <article class="sheet">
+    <aside>
+      <header class="identity">
+        <span class="portrait-frame">
+          <img class="portrait" src="images/milica.png" alt="Milica Galić" width="168" height="168">
+        </span>
+        <h1>Milica Galić</h1>
+        <p class="role" data-i18n="role">Full-Stack Developer</p>
+        <div class="lang-switch" role="group" data-i18n-aria="lang-label" aria-label="Language">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang="de" aria-pressed="false">DE</button>
+          <button type="button" data-lang="sr" aria-pressed="false">SR</button>
+        </div>
+      </header>
+
+      <section class="side-section" data-i18n-aria="contact-label" aria-label="Contact">
+        <ul class="contact">
+          <li>
+            <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
+            <a href="mailto:milicagalicdev@gmail.com" target="_blank" rel="noopener noreferrer">milicagalicdev@gmail.com</a>
+          </li>
+          <li>
+            <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+            <a href="tel:+38766488722" target="_blank" rel="noopener noreferrer">+387 66 488 722</a>
+          </li>
+          <li>
+            <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+            <span>Banja Luka, Bosnia and Herzegovina</span>
+          </li>
+          <li>
+            <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>
+            <a href="https://github.com/devilica" target="_blank" rel="noopener noreferrer">github.com/devilica</a>
+          </li>
+          <li>
+            <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>
+            <a href="https://www.linkedin.com/in/milica-gali%C4%87-476ab3214" target="_blank" rel="noopener noreferrer">linkedin.com/in/milica-galić</a>
+          </li>
+        </ul>
+        <button class="download" type="button">
+          <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>
+          <span data-i18n="download">Download CV</span>
+        </button>
+      </section>
+
+      <section class="side-section" aria-labelledby="skills-heading">
+        <h2 id="skills-heading"><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg><span data-i18n="skills">Skills</span></h2>
+        <h3 class="group" data-i18n="group-backend">Backend</h3>
+        <ul class="pills">
+          <li>Laravel</li>
+          <li>PHP</li>
+          <li>Node.js</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>REST API</li>
+          <li>Blockchain</li>
+        </ul>
+        <h3 class="group" data-i18n="group-frontend">Frontend</h3>
+        <ul class="pills">
+          <li>Vue.js</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>Angular</li>
+          <li>React Native</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>jQuery</li>
+          <li>AJAX</li>
+        </ul>
+        <h3 class="group" data-i18n="group-tools">Tools &amp; DevOps</h3>
+        <ul class="pills">
+          <li>Docker</li>
+          <li>Git</li>
+          <li>n8n</li>
+          <li>AWS</li>
+          <li>Heroku</li>
+          <li>Postman</li>
+          <li>Composer</li>
+          <li>Java</li>
+        </ul>
+      </section>
+
+      <section class="side-section" aria-labelledby="languages-heading">
+        <h2 id="languages-heading"><svg class="icon" aria-hidden="true"><use href="#i-language"/></svg><span data-i18n="languages">Languages</span></h2>
+        <ul class="lang-list">
+          <li><span data-i18n="lang-sbc">Serbian / Bosnian / Croatian</span> <b data-i18n="lvl-native">Native</b></li>
+          <li><span data-i18n="lang-en">English</span> <b data-i18n="lvl-fluent">Fluent</b></li>
+          <li><span data-i18n="lang-de">German</span> <b data-i18n="lvl-mid">Intermediate</b></li>
+          <li><span data-i18n="lang-es">Spanish</span> <b data-i18n="lvl-mid">Intermediate</b></li>
+          <li><span data-i18n="lang-zh">Chinese</span> <b data-i18n="lvl-beginner">Beginner</b></li>
+        </ul>
+      </section>
+
+      <section class="side-section" aria-labelledby="interests-heading">
+        <h2 id="interests-heading"><svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg><span data-i18n="interests">Interests</span></h2>
+        <p data-i18n="interests-body">In my free time I use a CNC laser to engrave and design wooden products, combining technology and craftsmanship into personalized pieces.</p>
+      </section>
+
+      <svg class="wave" viewBox="0 0 300 140" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path d="M0 70 C70 20 140 120 210 70 S300 40 300 40 V140 H0 Z" fill="#a91f42" opacity="0.22"/>
+        <path d="M0 95 C80 55 150 135 230 90 S300 75 300 75 V140 H0 Z" fill="#f6dce3" opacity="0.14"/>
+      </svg>
+    </aside>
+
+    <main>
+      <section aria-labelledby="summary-heading">
+        <h2 class="section-title" id="summary-heading"><span class="title-icon"><svg class="icon" aria-hidden="true"><use href="#i-user"/></svg></span><span data-i18n="summary-h">Summary</span></h2>
+        <p class="summary" data-i18n="summary">Full-stack developer with 5+ years of experience specializing in Laravel, Vue.js, and API integrations. I have built and maintained scalable platforms for international clients, including full Shopify, WooCommerce, and Amazon API integrations. Strong background in backend development, with additional work in frontend technologies, blockchain, and DevOps tools. I care about clean code, innovation, and continuous learning.</p>
+        <ul class="highlights">
+          <li><svg class="icon" aria-hidden="true"><use href="#i-code"/></svg><span><strong data-i18n="hi-years-n">5+ Years</strong> <span data-i18n="hi-years-l">Experience</span></span></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg><span><strong data-i18n="hi-fs-n">Full-Stack</strong> <span data-i18n="hi-fs-l">Development</span></span></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-api"/></svg><span><strong data-i18n="hi-api-n">API</strong> <span data-i18n="hi-api-l">Integrations</span></span></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-rocket"/></svg><span><strong data-i18n="hi-perf-n">Performance</strong> <span data-i18n="hi-perf-l">&amp; Automation</span></span></li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="experience-heading">
+        <h2 class="section-title" id="experience-heading"><span class="title-icon"><svg class="icon" aria-hidden="true"><use href="#i-briefcase"/></svg></span><span data-i18n="experience">Experience</span></h2>
+
+        <ol class="timeline">
+          <li class="entry">
+            <div class="entry-head">
+              <h3 data-i18n="job-sd">Software Developer</h3>
+              <p class="dates"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>Sep 2025 — Present</p>
+            </div>
+            <p class="company" data-i18n-html="co-paj"><a href="https://paj-gps.de/" target="_blank" rel="noopener noreferrer">PAJ UG</a>, Germany — Remote</p>
+            <ul>
+              <li data-i18n="paj-1">Full-stack development on a GPS tracking and fleet management platform.</li>
+              <li data-i18n="paj-2">Backend services in Laravel: REST APIs, business logic, and performance optimization.</li>
+              <li data-i18n="paj-3">Frontend applications in Angular and mobile apps in React Native, with TypeScript across both.</li>
+              <li data-i18n="paj-4">Integration and processing of real-time GPS data from tracking devices.</li>
+              <li data-i18n="paj-5">MongoDB for scalable storage and location-based queries.</li>
+              <li data-i18n="paj-6">AI-assisted development with Cursor, AI agents, and Codex to speed up delivery and improve code quality.</li>
+              <li data-i18n="paj-7">NetBird for secure network access between development environments and services.</li>
+              <li data-i18n="paj-8">Collaboration on system architecture, feature design, and performance improvements.</li>
+            </ul>
+          </li>
+
+          <li class="entry">
+            <div class="entry-head">
+              <h3 data-i18n="job-fs">Full-Stack Developer</h3>
+              <p class="dates"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>Jan 2023 — Aug 2025</p>
+            </div>
+            <p class="company" data-i18n-html="co-bc">Codefellas GmbH — <a href="https://brandcanyon.de/" target="_blank" rel="noopener noreferrer">Brand Canyon</a>, Germany — Remote</p>
+            <ul>
+              <li data-i18n="bc-1">Laravel backend, Vue.js frontend, MySQL, Docker, and REST API architecture.</li>
+              <li data-i18n-html="bc-2">Development and maintenance of <a href="https://brandcanyon.de/" target="_blank" rel="noopener noreferrer">brandcanyon.de</a> and dashboard.merch.camp, and the lara.sosabrothers.de platform built from scratch.</li>
+              <li data-i18n="bc-3">Shopify API integrations, starting with REST and later migrating to GraphQL for product and order synchronization.</li>
+              <li data-i18n="bc-4">REST APIs for WooCommerce and the Amazon API for multichannel product sales and shop connectivity.</li>
+              <li data-i18n="bc-5">n8n workflows for DecoNetwork, automating order processing and product synchronization.</li>
+              <li data-i18n="bc-6">Stanley/Stella API integration to monitor stock levels and automate product availability.</li>
+              <li data-i18n="bc-7">End-to-end backend in Laravel and frontend in Vue.js, with structured data in MySQL.</li>
+            </ul>
+          </li>
+
+          <li class="entry">
+            <div class="entry-head">
+              <h3 data-i18n="job-fs">Full-Stack Developer</h3>
+              <p class="dates"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>Jul 2021 — Jan 2023</p>
+            </div>
+            <p class="company">Digital Asset Management LLC, Banja Luka</p>
+            <ul>
+              <li data-i18n="dam-1">Daily work with Laravel, Laragon, PHP, MySQL, JavaScript, Vue.js, Node.js, Git, HTML, CSS, AJAX, jQuery, Composer, Bootstrap, REST APIs, JSON, and Postman.</li>
+              <li data-i18n="dam-2">Occasional React Native, Java, Android Studio, and Eclipse for mobile and cross-platform development.</li>
+              <li data-i18n="dam-3">Hands-on work with blockchain technologies and cryptocurrency platforms.</li>
+              <li data-i18n="dam-4">Web hosting and deployment with FTP, PuTTY, FileZilla, AWS, and Heroku.</li>
+              <li data-i18n="dam-5">Code reviews and architecture discussions, plus monitoring and troubleshooting of production systems.</li>
+              <li data-i18n-html="dam-6">Ethereum savings feature on the <a href="https://bcx.ba/" target="_blank" rel="noopener noreferrer">BCX</a> platform, with Laravel on the backend and HTML on the frontend.</li>
+              <li data-i18n-html="dam-7">Contribution to <a href="https://lova.ba/" target="_blank" rel="noopener noreferrer">Lova.ba</a>, a React Native app for digital payments and financial transactions.</li>
+            </ul>
+          </li>
+
+          <li class="entry">
+            <div class="entry-head">
+              <h3 data-i18n="job-ts">Technical Support Specialist</h3>
+              <p class="dates"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>Mar 2020 — Jul 2021</p>
+            </div>
+            <p class="company"><a href="https://mtel.ba/" target="_blank" rel="noopener noreferrer">M:tel</a>, Banja Luka</p>
+            <ul>
+              <li data-i18n="mtel-1">Technical support for end users, resolving issues quickly so operations stayed uninterrupted.</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="education-heading">
+        <h2 class="section-title" id="education-heading"><span class="title-icon"><svg class="icon" aria-hidden="true"><use href="#i-graduation"/></svg></span><span data-i18n="education">Education</span></h2>
+        <ol class="timeline timeline-compact">
+          <li class="entry">
+            <div class="entry-head">
+              <h3 data-i18n="edu-degree">Graduate Professor of Mathematics and Informatics</h3>
+              <p class="dates"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>2016 — 2020</p>
+            </div>
+            <p class="company"><a href="https://pmf.unibl.org/" target="_blank" rel="noopener noreferrer" data-i18n="edu-faculty">Faculty of Natural Sciences and Mathematics</a>, Banja Luka</p>
+            <p class="note" data-i18n="edu-major">Professor of Mathematics and Informatics track.</p>
+          </li>
+          <li class="entry">
+            <div class="entry-head">
+              <h3><a href="https://gimnazijabanjaluka.org/" target="_blank" rel="noopener noreferrer" data-i18n="edu-school">High School Gymnasium</a></h3>
+              <p class="dates"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>2012 — 2016</p>
+            </div>
+            <p class="company">Banja Luka, Bosnia and Herzegovina</p>
+            <p class="note" data-i18n="edu-track">Natural sciences and mathematics track.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="certifications-heading">
+        <h2 class="section-title" id="certifications-heading"><span class="title-icon"><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg></span><span data-i18n="certs">Certifications</span></h2>
+        <ul class="certs">
+          <li data-i18n="cert-1">Certificate for attending the camp of young programmers by Lanaco</li>
+          <li data-i18n="cert-2">Certificate of the Association of Innovators</li>
+          <li data-i18n="cert-3">Entrepreneurship training certificate</li>
+          <li data-i18n="cert-4">Certificate for learning Chinese</li>
+          <li data-i18n="cert-5">Certificate for learning English</li>
+        </ul>
+      </section>
+    </main>
+
+    <!--
+      Add a screenshot at images/projects/<folder>/cover.jpg
+      More images: copy an img inside the same figure, for example
+      <img src="images/projects/geoin-nekretnine/02.jpg" alt="GEOIN Nekretnine, second screen">
+    -->
+    <section class="projects-panel" aria-labelledby="projects-heading">
+        <h2 class="section-title" id="projects-heading"><span class="title-icon"><svg class="icon" aria-hidden="true"><use href="#i-folder"/></svg></span><span data-i18n="projects">Projects</span></h2>
+        <p class="section-lead" data-i18n="projects-lead">Personal projects I designed and built from scratch.</p>
+        <div class="project-grid">
+          <article class="project">
+            <figure class="project-shot is-empty">
+              <img src="images/projects/warehouse-cms/cover.jpg" alt="Warehouse CMS dashboard">
+              <figcaption class="shot-fallback"><span>Add cover.jpg</span><code>warehouse-cms/</code></figcaption>
+            </figure>
+            <h3>Warehouse CMS <a class="ext-link" href="https://warehouse-jrfx.vercel.app/" target="_blank" rel="noopener noreferrer" data-i18n-aria="aria-warehouse" aria-label="Warehouse CMS demo"><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a></h3>
+            <p data-i18n="proj-warehouse">A full-stack warehouse management system built with Laravel and Vue.js. It covers inventory tracking, multi-warehouse management, procurement, role-based access, and reporting, with a responsive admin dashboard and a fully populated demo.</p>
+          </article>
+
+          <article class="project">
+            <figure class="project-shot is-empty">
+              <img src="images/projects/geoin-nekretnine/cover.jpg" alt="GEOIN Nekretnine">
+              <figcaption class="shot-fallback"><span>Add cover.jpg</span><code>geoin-nekretnine/</code></figcaption>
+            </figure>
+            <h3>GEOIN Nekretnine <a class="ext-link" href="http://geoinnekretnine.com/" target="_blank" rel="noopener noreferrer" data-i18n-aria="aria-geoin" aria-label="GEOIN Nekretnine website"><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a></h3>
+            <p data-i18n="proj-geoin">Designed and developed a modern, responsive real estate website in PHP, with AI-assisted development. It includes property listings, advanced search and filtering, a custom admin dashboard, and content management. I also deployed it and still host and maintain it.</p>
+          </article>
+
+          <article class="project">
+            <figure class="project-shot is-empty">
+              <img src="images/projects/my-perfect-party/cover.jpg" alt="My Perfect Party app">
+              <figcaption class="shot-fallback"><span>Add cover.jpg</span><code>my-perfect-party/</code></figcaption>
+            </figure>
+            <h3>My Perfect Party <a class="ext-link" href="https://play.google.com/store/apps/details?id=com.mojasavrsenaproslava.app" target="_blank" rel="noopener noreferrer" data-i18n-aria="aria-party" aria-label="My Perfect Party on Google Play"><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a></h3>
+            <p data-i18n="proj-party">React Native app for event planning. It covers guest lists and RSVPs, seating plans, expenses, tasks and checklists, invitations, statistics, and PDF export. I built the UI, app logic, Android release, and Google Play listing.</p>
+          </article>
+
+          <article class="project">
+            <figure class="project-shot is-empty">
+              <img src="images/projects/dress-up-makeup-girls/cover.jpg" alt="Dress Up and Makeup Girls">
+              <figcaption class="shot-fallback"><span>Add cover.jpg</span><code>dress-up-makeup-girls/</code></figcaption>
+            </figure>
+            <h3>Dress Up &amp; Makeup Girls <a class="ext-link" href="https://play.google.com/store/apps/details?id=com.dressupmakeup.girls" target="_blank" rel="noopener noreferrer" data-i18n-aria="aria-dress" aria-label="Dress Up and Makeup Girls on Google Play"><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a></h3>
+            <p data-i18n="proj-dress">A Unity fashion and beauty game where players try outfits, makeup, and hairstyles to create their own looks. I handled the game development and visual styling for the Android release.</p>
+          </article>
+
+          <article class="project">
+            <figure class="project-shot is-empty">
+              <img src="images/projects/flip-it/cover.jpg" alt="FLIP IT puzzle game">
+              <figcaption class="shot-fallback"><span>Add cover.jpg</span><code>flip-it/</code></figcaption>
+            </figure>
+            <h3>FLIP IT! <a class="ext-link" href="https://play.google.com/store/apps/details?id=com.flipit.puzzle" target="_blank" rel="noopener noreferrer" data-i18n-aria="aria-flip" aria-label="FLIP IT on Google Play"><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a></h3>
+            <p data-i18n="proj-flip">A React Native collection of logic puzzle games, built with AI-assisted development. Players match tiles, solve Sudoku, and crack a secret code.</p>
+          </article>
+        </div>
+    </section>
+  </article>
+
+  <script src="i18n.js"></script>
+  <script>
+    document.querySelectorAll(".project-shot img").forEach(function (img) {
+      function showImage() {
+        var figure = img.closest(".project-shot");
+        if (figure) figure.classList.remove("is-empty");
+      }
+      img.addEventListener("load", showImage);
+      if (img.complete && img.naturalWidth > 0) showImage();
+    });
+    document.querySelector(".download").addEventListener("click", function () {
+      window.print();
+    });
+  </script>
+</body>
+</html>
