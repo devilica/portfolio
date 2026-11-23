@@ -16,6 +16,7 @@
       title: "Milica Galić — Full-Stack-Entwicklerin",
       meta: "Lebenslauf von Milica Galić, Full-Stack-Entwicklerin in Banja Luka, spezialisiert auf Laravel, Vue.js und API-Integrationen.",
       role: "Full-Stack-Entwicklerin",
+      remote: "Nur Remote",
       "lang-label": "Sprache",
       "contact-label": "Kontakt",
       download: "CV herunterladen",
@@ -31,6 +32,7 @@
       "lang-zh": "Chinesisch",
       "lvl-native": "Muttersprache",
       "lvl-fluent": "Fließend",
+      "lvl-de": "Gut",
       "lvl-mid": "Mittelstufe",
       "lvl-beginner": "Grundkenntnisse",
       interests: "Interessen",
@@ -99,10 +101,12 @@
       "aria-flip": "FLIP IT bei Google Play",
       "proj-flip": "Eine Sammlung von Logikrätseln in React Native, entwickelt mit KI-Unterstützung. Spielerinnen bringen Kacheln zur Übereinstimmung, lösen Sudoku und knacken einen Geheimcode."
     },
+
     sr: {
-      title: "Milica Galić — Full-stack programerka",
-      meta: "Biografija Milice Galić, full-stack programerke iz Banje Luke, sa fokusom na Laravel, Vue.js i API integracije.",
-      role: "Full-stack programerka",
+      title: "Milica Galić — Full-stack programer",
+      meta: "Biografija Milice Galić, full-stack programera iz Banje Luke, sa fokusom na Laravel, Vue.js i API integracije.",
+      role: "Full-stack programer",
+      remote: "Rad na daljinu",
       "lang-label": "Jezik",
       "contact-label": "Kontakt",
       download: "Preuzmi CV",
@@ -118,12 +122,15 @@
       "lang-zh": "Kineski",
       "lvl-native": "Maternji",
       "lvl-fluent": "Tečno",
-      "lvl-mid": "Srednji",
-      "lvl-beginner": "Početni",
+      "lvl-de": "Srednji nivo",
+      "lvl-mid": "Srednji nivo",
+      "lvl-beginner": "Početni nivo",
       interests: "Interesovanja",
-      "interests-body": "U slobodno vrijeme CNC laserom graviram i oblikujem drvene proizvode, spajajući tehnologiju i zanat u personalizirane predmete.",
+      "interests-body": "U slobodno vrijeme bavim se laserskim graviranjem i izradom drvenih proizvoda, spajajući tehnologiju i kreativnost u izradi personalizovanih predmeta.",
+
       "summary-h": "Sažetak",
-      summary: "Full-stack programerka sa više od 5 godina iskustva, specijalizirana za Laravel, Vue.js i API integracije. Gradila sam i održavala skalabilne platforme za međunarodne klijente, uključujući pune integracije sa Shopifyjem, WooCommerceom i Amazon API-jem. Imam snažno iskustvo u backend razvoju, uz dodatni rad na frontend tehnologijama, blockchainu i DevOps alatima. Stalo mi je do čistog koda, inovacija i stalnog učenja.",
+      summary: "Full-stack programer sa više od 5 godina profesionalnog iskustva i fokusom na Laravel, Vue.js i API integracije. Razvijala sam i održavala skalabilne platforme za međunarodne klijente, uključujući integracije sa Shopifyjem, WooCommerceom i Amazon API-jem. Imam bogato iskustvo u backend razvoju, kao i iskustvo u radu sa frontend tehnologijama, blockchainom i DevOps alatima. Posebnu pažnju posvećujem kvalitetu koda, optimizaciji i stalnom usavršavanju.",
+
       "hi-years-n": "5+ godina",
       "hi-years-l": "iskustva",
       "hi-fs-n": "Full-stack",
@@ -132,60 +139,73 @@
       "hi-api-l": "integracije",
       "hi-perf-n": "Performanse",
       "hi-perf-l": "i automatizacija",
-      experience: "Iskustvo",
-      "job-sd": "Softverska programerka",
-      "co-paj": paj + ", Njemačka — na daljinu",
-      "paj-1": "Full-stack razvoj platforme za GPS praćenje i upravljanje flotom.",
-      "paj-2": "Backend servisi u Laravelu: REST API-ji, poslovna logika i optimizacija performansi.",
-      "paj-3": "Frontend aplikacije u Angularu i mobilne aplikacije u React Nativeu, uz TypeScript na oba.",
+
+      experience: "Radno iskustvo",
+      "job-sd": "Softverski programer",
+      "co-paj": paj + ", Njemačka — rad na daljinu",
+      "paj-1": "Full-stack razvoj platforme za GPS praćenje i upravljanje voznim parkom.",
+      "paj-2": "Razvoj backend servisa u Laravelu, uključujući REST API-je, poslovnu logiku i optimizaciju performansi.",
+      "paj-3": "Razvoj frontend aplikacija u Angularu i mobilnih aplikacija u React Nativeu, uz korišćenje TypeScripta.",
       "paj-4": "Integracija i obrada GPS podataka u realnom vremenu sa uređaja za praćenje.",
-      "paj-5": "MongoDB za skalabilno skladištenje i upite po lokaciji.",
-      "paj-6": "Razvoj uz pomoć vještačke inteligencije, sa Cursorom, AI agentima i Codexom, radi brže isporuke i boljeg kvaliteta koda.",
-      "paj-7": "NetBird za siguran mrežni pristup između razvojnih okruženja i servisa.",
-      "paj-8": "Saradnja na arhitekturi sistema, dizajnu funkcionalnosti i poboljšanju performansi.",
-      "job-fs": "Full-stack programerka",
-      "co-bc": "Codefellas GmbH — " + canyon + ", Njemačka — na daljinu",
-      "bc-1": "Laravel backend, Vue.js frontend, MySQL, Docker i arhitektura REST API-ja.",
-      "bc-2": "Razvoj i održavanje sajta " + canyonSite + " i dashboard.merch.camp, kao i platforme lara.sosabrothers.de napravljene od nule.",
-      "bc-3": "Integracije Shopify API-ja, prvo preko REST-a, a zatim prelazak na GraphQL radi sinhronizacije proizvoda i porudžbina.",
-      "bc-4": "REST API-ji za WooCommerce i Amazon API za višekanalnu prodaju proizvoda i povezivanje prodavnica.",
-      "bc-5": "n8n tokovi za DecoNetwork, za automatsku obradu porudžbina i sinhronizaciju proizvoda.",
+      "paj-5": "Korišćenje MongoDB-a za skalabilno skladištenje podataka i upite zasnovane na lokaciji.",
+      "paj-6": "Korišćenje AI alata, uključujući Cursor, AI agente i Codex, za ubrzavanje razvoja i unapređenje kvaliteta koda.",
+      "paj-7": "Korišćenje NetBird-a za siguran mrežni pristup između razvojnih okruženja i servisa.",
+      "paj-8": "Učešće u osmišljavanju arhitekture sistema, razvoju funkcionalnosti i unapređenju performansi.",
+
+      "job-fs": "Full-stack programer",
+      "co-bc": "Codefellas GmbH — " + canyon + ", Njemačka — rad na daljinu",
+      "bc-1": "Razvoj Laravel backend sistema, Vue.js frontend aplikacija, MySQL baza podataka i REST API arhitekture.",
+      "bc-2": "Razvoj i održavanje sajta " + canyonSite + ", dashboard.merch.camp i platforme lara.sosabrothers.de, koja je razvijena od početka.",
+      "bc-3": "Integracija Shopify API-ja, uz početno korišćenje REST API-ja i kasniji prelazak na GraphQL radi sinhronizacije proizvoda i porudžbina.",
+      "bc-4": "Integracija WooCommerce REST API-ja i Amazon API-ja za povezivanje prodavnica i upravljanje višekanalnom prodajom.",
+      "bc-5": "Izrada n8n automatizacija za DecoNetwork, uključujući automatsku obradu porudžbina i sinhronizaciju proizvoda.",
       "bc-6": "Integracija Stanley/Stella API-ja za praćenje zaliha i automatsko ažuriranje dostupnosti proizvoda.",
-      "bc-7": "Kompletan backend u Laravelu i frontend u Vue.js-u, sa strukturiranim podacima u MySQL-u.",
+      "bc-7": "Razvoj kompletnog backend sistema u Laravelu i frontend aplikacije u Vue.js-u, uz organizovano skladištenje podataka u MySQL bazi.",
+
       "dam-1": "Svakodnevni rad sa Laravelom, Laragonom, PHP-om, MySQL-om, JavaScriptom, Vue.js-om, Node.js-om, Gitom, HTML-om, CSS-om, AJAX-om, jQueryjem, Composerom, Bootstrapom, REST API-jima, JSON-om i Postmanom.",
-      "dam-2": "Povremeno React Native, Java, Android Studio i Eclipse za mobilni razvoj i razvoj za više platformi.",
-      "dam-3": "Praktičan rad sa blockchain tehnologijama i platformama za kriptovalute.",
-      "dam-4": "Hosting i postavljanje sajtova preko FTP-a, PuTTY-ja, FileZille, AWS-a i Herokua.",
-      "dam-5": "Pregledi koda i razgovori o arhitekturi, uz nadzor i otklanjanje problema na produkcionim sistemima.",
-      "dam-6": "Funkcija štednje u Ethereumu na platformi " + bcx + ", sa Laravelom na backendu i HTML-om na frontendu.",
-      "dam-7": "Doprinos aplikaciji " + lova + ", React Native aplikaciji za digitalna plaćanja i finansijske transakcije.",
-      "job-ts": "Specijalistkinja tehničke podrške",
-      "mtel-1": "Tehnička podrška krajnjim korisnicima, uz brzo rješavanje problema da rad ne bi stajao.",
+      "dam-2": "Povremeni rad sa React Nativeom, Javom, Android Studiom i Eclipseom na razvoju mobilnih aplikacija i aplikacija za više platformi.",
+      "dam-3": "Praktično iskustvo u radu sa blockchain tehnologijama i platformama za kriptovalute.",
+      "dam-4": "Postavljanje i održavanje sajtova i aplikacija na serverima, uz korišćenje FTP-a, PuTTY-ja, FileZille, AWS-a i Herokua.",
+      "dam-5": "Pregledanje koda, razgovori o arhitekturi sistema, nadzor produkcionih okruženja i otklanjanje problema.",
+      "dam-6": "Razvoj funkcionalnosti štednje u Ethereumu na platformi " + bcx + ", uz Laravel backend i HTML frontend.",
+      "dam-7": "Doprinos razvoju aplikacije " + lova + ", React Native aplikacije za digitalna plaćanja i finansijske transakcije.",
+
+      "job-ts": "Tehnička podrška",
+      "mtel-1": "Pružanje tehničke podrške korisnicima i brzo rješavanje tehničkih problema radi nesmetanog rada.",
+
       education: "Obrazovanje",
       "edu-degree": "Diplomirani profesor matematike i informatike",
       "edu-faculty": "Prirodno-matematički fakultet",
-      "edu-major": "Smjer profesor matematike i informatike.",
+      "edu-major": "Studijski program: profesor matematike i informatike.",
       "edu-school": "Gimnazija",
       "edu-track": "Prirodno-matematički smjer.",
+
       certs: "Certifikati",
-      "cert-1": "Certifikat za učešće na kampu mladih programera u organizaciji Lanaca",
+      "cert-1": "Certifikat o učešću na kampu mladih programera u organizaciji Lanaca",
       "cert-2": "Certifikat Udruženja inovatora",
-      "cert-3": "Certifikat o obuci iz preduzetništva",
-      "cert-4": "Certifikat za učenje kineskog jezika",
-      "cert-5": "Certifikat za učenje engleskog jezika",
+      "cert-3": "Certifikat o završenoj obuci iz preduzetništva",
+      "cert-4": "Certifikat o poznavanju kineskog jezika",
+      "cert-5": "Certifikat o poznavanju engleskog jezika",
+
       projects: "Projekti",
-      "projects-lead": "Lični projekti koje sam osmislila i napravila od nule.",
-      "aria-warehouse": "Demo za Warehouse CMS",
-      "proj-warehouse": "Full-stack sistem za upravljanje skladištem, napravljen u Laravelu i Vue.js-u. Obuhvata praćenje zaliha, više skladišta, nabavku, pristup po ulogama i izvještaje, uz responzivni admin dashboard i potpuno popunjen demo.",
+      "projects-lead": "Lični projekti koje sam osmislila i razvila od početka.",
+
+      "aria-warehouse": "Demo aplikacija Warehouse CMS",
+      "proj-warehouse": "Full-stack sistem za upravljanje skladištem, razvijen u Laravelu i Vue.js-u. Obuhvata praćenje zaliha, upravljanje više skladišta, nabavku, kontrolu pristupa prema korisničkim ulogama i izvještavanje. Uključuje responzivnu administratorsku kontrolnu tablu i demo verziju sa unaprijed pripremljenim podacima.",
+
       "aria-geoin": "Sajt GEOIN Nekretnine",
-      "proj-geoin": "Moderan, responzivan sajt za nekretnine u PHP-u, razvijen uz pomoć vještačke inteligencije. Uključuje oglase, naprednu pretragu i filtere, poseban admin dashboard i upravljanje sadržajem. Sajt sam i postavila, a i dalje ga hostujem i održavam.",
+      "proj-geoin": "Moderan i responzivan sajt za agenciju za nekretnine, razvijen u PHP-u uz pomoć AI alata. Obuhvata prikaz nekretnina, naprednu pretragu i filtere, administratorsku kontrolnu tablu i upravljanje sadržajem. Samostalno sam postavila sajt na hosting i nastavila da ga održavam.",
+
       "aria-party": "My Perfect Party na Google Playu",
-      "proj-party": "React Native aplikacija za planiranje događaja. Obuhvata liste gostiju i RSVP, raspored sjedenja, troškove, zadatke i ček-liste, pozivnice, statistiku i PDF izvoz. Napravila sam interfejs, logiku aplikacije, Android izdanje i objavu na Google Playu.",
+      "proj-party": "React Native aplikacija za organizaciju događaja. Omogućava upravljanje listama gostiju i RSVP potvrdama dolaska, rasporedom sjedenja, troškovima, zadacima, pozivnicama i statistikom, uz mogućnost izvoza u PDF. Razvila sam korisnički interfejs, funkcionalnosti aplikacije, Android verziju i objavila je na Google Playu.",
+
       "aria-dress": "Dress Up and Makeup Girls na Google Playu",
-      "proj-dress": "Unity igra o modi i ljepoti u kojoj igrači isprobavaju odjeću, šminku i frizure i prave vlastite izglede. Radila sam razvoj igre i vizuelni stil za Android izdanje.",
+      "proj-dress": "Unity igra posvećena modi i ljepoti, u kojoj igrači mogu kombinovati odjeću, šminku i frizure i kreirati vlastite stilove. Radila sam na razvoju igre i njenom vizuelnom identitetu za Android izdanje.",
+
       "aria-flip": "FLIP IT na Google Playu",
-      "proj-flip": "Zbirka logičkih zagonetki u React Nativeu, napravljena uz pomoć vještačke inteligencije. Igrači slažu pločice, rješavaju Sudoku i otkrivaju tajni kod."
+      "proj-flip": "Zbirka logičkih igara razvijena u React Nativeu uz pomoć AI alata. Obuhvata slaganje pločica, Sudoku i igru pogađanja tajnog koda."
     }
+
   };
 
   var textOriginal = new WeakMap();
@@ -232,7 +252,7 @@
 
     try {
       localStorage.setItem(STORAGE_KEY, lang);
-    } catch (error) {}
+    } catch (error) { }
   }
 
   var switcher = document.querySelector(".lang-switch");
@@ -247,6 +267,6 @@
   var saved = "en";
   try {
     saved = localStorage.getItem(STORAGE_KEY) || "en";
-  } catch (error) {}
+  } catch (error) { }
   if (saved !== "en") apply(saved);
 })();

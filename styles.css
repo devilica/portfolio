@@ -89,12 +89,25 @@ aside {
   text-align: center;
 }
 
+.portrait-wrap {
+  margin: 0 auto 0.85rem;
+}
+
+.remote {
+  margin: 0 0 0.55rem;
+  color: rgba(246, 220, 227, 0.82);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
 .portrait-frame {
   display: block;
-  width: 168px;
-  max-width: 100%;
+  width: min(168px, 100%);
   aspect-ratio: 1;
-  margin: 0 auto 1.2rem;
+  margin: 0 auto;
   border: 3px solid var(--pink);
   border-radius: 50%;
   overflow: hidden;
@@ -751,6 +764,7 @@ main p {
 
   body {
     background: #fff;
+    font-family: "Segoe UI", Arial, sans-serif;
     font-size: 1rem;
     line-height: 1.5;
     font-variant-ligatures: none;
@@ -759,8 +773,7 @@ main p {
   }
 
   .sheet {
-    display: grid;
-    grid-template-columns: 27% 73%;
+    display: block;
     width: 100%;
     margin: 0;
     border-radius: 0;
@@ -768,18 +781,18 @@ main p {
   }
 
   aside {
-    grid-column: 1;
-    grid-row: 1;
+    float: left;
+    width: 27%;
+    min-height: 100vh;
+    break-inside: avoid;
   }
 
   main {
-    grid-column: 2;
-    grid-row: 1;
+    margin-left: 27%;
   }
 
   .projects-panel {
-    grid-column: 1 / -1;
-    grid-row: 2;
+    clear: both;
     padding: 6mm 9mm 8mm;
     border: 0;
     border-top: 1px solid var(--line);
@@ -787,20 +800,64 @@ main p {
   }
 
   .project-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 4mm;
+    display: block;
+  }
+
+  .project-grid::after {
+    content: "";
+    display: block;
+    clear: both;
   }
 
   .project {
-    padding: 2.5mm 2.5mm 3mm;
+    float: left;
+    width: calc(50% - 1.5mm);
+    margin: 0 0 2.5mm;
+    padding: 2mm 2.5mm 2.5mm;
+  }
+
+  .project:nth-child(odd) {
+    margin-right: 3mm;
+  }
+
+  .contact li,
+  .entry-head,
+  .project h3,
+  .highlights {
+    display: block;
+  }
+
+  .entry-head {
+    overflow: hidden;
+  }
+
+  .highlights li {
+    display: inline-block;
+    width: 48%;
+    margin: 0 1% 2mm 0;
+    vertical-align: top;
+  }
+
+  .dates {
+    float: right;
+  }
+
+  .ext-link {
+    display: inline-block;
+  }
+
+  .contact .icon {
+    display: inline-block;
+    margin-right: 0.35rem;
+    vertical-align: middle;
   }
 
   .project-shot {
-    margin-bottom: 2mm;
+    margin-bottom: 1.5mm;
   }
 
   .project-shot img {
-    height: 32mm;
+    height: 22mm;
   }
 
   aside {
@@ -815,9 +872,18 @@ main p {
     print-color-adjust: exact;
   }
 
+  .portrait-wrap {
+    margin-bottom: 2mm;
+  }
+
   .portrait-frame {
-    width: 26mm;
-    margin-bottom: 3mm;
+    width: 28mm;
+  }
+
+  .remote {
+    margin-bottom: 1.5mm;
+    font-size: 7.5pt;
+    letter-spacing: 0.12em;
   }
 
   .wave {
@@ -870,6 +936,10 @@ main p {
   .project,
   .highlights {
     break-inside: avoid;
+  }
+
+  [aria-labelledby="education-heading"] {
+    break-before: page;
   }
 
   a {
