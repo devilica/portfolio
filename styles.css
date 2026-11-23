@@ -251,6 +251,7 @@ aside {
   font: inherit;
   font-size: 0.88rem;
   font-weight: 600;
+  text-decoration: none;
   cursor: pointer;
   transition: background 0.15s ease, border-color 0.15s ease;
 }
@@ -759,7 +760,7 @@ main p {
   }
 
   html {
-    font-size: 10.5px;
+    font-size: 12px;
   }
 
   body {
@@ -783,7 +784,7 @@ main p {
   aside {
     float: left;
     width: 27%;
-    min-height: 100vh;
+    height: 297mm;
     break-inside: avoid;
   }
 
@@ -833,13 +834,47 @@ main p {
 
   .highlights li {
     display: inline-block;
-    width: 48%;
-    margin: 0 1% 2mm 0;
+    width: 23.5%;
+    margin: 0 2% 0 0;
     vertical-align: top;
+  }
+
+  .highlights li:last-child {
+    margin-right: 0;
+  }
+
+  .highlights .icon {
+    float: left;
+    margin: 0.15rem 0.45rem 0 0;
+  }
+
+  .highlights li > span {
+    display: block;
+    overflow: hidden;
+  }
+
+  .pills li,
+  .lang-list b,
+  .dates,
+  .highlights li {
+    font-size: 7pt;
+  }
+
+  .note,
+  .project p,
+  .section-lead,
+  .highlights li {
+    color: var(--body);
+  }
+
+  .entry-head h3 {
+    float: left;
+    max-width: 72%;
   }
 
   .dates {
     float: right;
+    margin: 0;
   }
 
   .ext-link {
@@ -857,11 +892,11 @@ main p {
   }
 
   .project-shot img {
-    height: 22mm;
+    height: 18mm;
   }
 
   aside {
-    padding: 8mm 5mm 22mm;
+    padding: 8mm 5mm 16mm;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
@@ -877,7 +912,7 @@ main p {
   }
 
   .portrait-frame {
-    width: 28mm;
+    width: 26mm;
   }
 
   .remote {
@@ -887,12 +922,12 @@ main p {
   }
 
   .wave {
-    height: 20mm;
+    height: 15mm;
   }
 
   .side-section {
-    margin-top: 1.1rem;
-    padding-top: 1rem;
+    margin-top: 0.9rem;
+    padding-top: 0.8rem;
   }
 
   main > section + section {
@@ -905,17 +940,16 @@ main p {
   }
 
   .highlights {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem;
-    margin-top: 0.9rem;
+    margin-top: 0.8rem;
+    font-size: 0;
   }
 
   .highlights li {
-    padding: 0.5rem 0.65rem;
+    padding: 0.45rem 0.55rem;
   }
 
   .entry + .entry {
-    margin-top: 1rem;
+    margin-top: 0.85rem;
   }
 
   .entry ul li {

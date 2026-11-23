@@ -46,7 +46,7 @@
       "hi-api-n": "API",
       "hi-api-l": "Integrationen",
       "hi-perf-n": "Leistung",
-      "hi-perf-l": "und Automatisierung",
+      "hi-perf-l": "Automatisierung",
       experience: "Berufserfahrung",
       "job-sd": "Softwareentwicklerin",
       "co-paj": paj + ", Deutschland — Remote",
@@ -244,6 +244,10 @@
       if (!contentOriginal.has(el)) contentOriginal.set(el, el.getAttribute("content") || "");
       var next = valueFor(lang, el.getAttribute("data-i18n-content"));
       el.setAttribute("content", next == null ? contentOriginal.get(el) : next);
+    });
+
+    document.querySelectorAll(".download").forEach(function (link) {
+      link.setAttribute("href", "cv/Milica_Galic_CV_" + lang.toUpperCase() + ".pdf");
     });
 
     document.querySelectorAll(".lang-switch button").forEach(function (button) {

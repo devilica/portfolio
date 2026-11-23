@@ -74,10 +74,10 @@
             <a href="https://www.linkedin.com/in/milica-gali%C4%87-476ab3214/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/milica-galić-476ab3214/</a>
           </li>
         </ul>
-        <button class="download" type="button">
+        <a class="download" target="_blank" href="cv/Milica_Galic_CV_EN.pdf" download>
           <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>
           <span data-i18n="download">Download CV</span>
-        </button>
+        </a>
       </section>
 
       <section class="side-section" aria-labelledby="skills-heading">
@@ -321,9 +321,6 @@
       }
       img.addEventListener("load", showImage);
       if (img.complete && img.naturalWidth > 0) showImage();
-    });
-    document.querySelector(".download").addEventListener("click", function () {
-      window.print();
     });
   </script>
 </body>
